@@ -21,9 +21,9 @@ return [0, 1].
 
 1. 暴力法：**遍历**两遍   
 
-   Time complexity: $ O(n^2) $
+   Time complexity: $O(n^2) $
 
-   Space complexity: $ O(1) $
+   Space complexity: $O(1) $
 
 2. **Hash table:** 
 
@@ -35,9 +35,9 @@ return [0, 1].
 
    两种使用方法
 
-   Time complexity: $ O(n) $
+   Time complexity: $O(n) $
 
-   Space complexity: $ O(n) $
+   Space complexity: $O(n) $
 
    - 先初始化hash table，再遍历一次找sum-num[i]，注意排除sum=2num[i]情况
 
