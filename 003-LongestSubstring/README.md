@@ -34,5 +34,5 @@ Note that the answer must be a substring, "pwke" is a subsequence and not a subs
 
 ### Solution
 
-- 使用左右两指针，```int left, right```， 大循环移动右侧指针， 小循环遍历两指针之间的值， 若```s[i]```与```right+1``` 相同， 则左指针移动到相同项的右边一位，即```s[i+1]``` ，
+- 使用左右两指针，```int left, right```， 大循环移动右侧指针， 小循环遍历两指针之间的值， 若```s[i]```与```right+1``` 相同， 则左指针移动到相同项的右边一位，即```s[i+1]``` ，```length```的值要在移动右指针和左指针时两处更新
 - sliding window: 滑动窗口
