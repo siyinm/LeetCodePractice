@@ -18,4 +18,6 @@ Note: "aba" is also a valid answer.
 
   Space Complexity：$O(1)$
 
-- 中心扩展
+- 中心扩展，遍历每个中心点，character和两个character之间 (without codes )
+
+- b#a#b#a#d 新建数组 动态规划 (without codes )
