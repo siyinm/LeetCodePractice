@@ -1,4 +1,4 @@
-# LeetCodePractice
+LeetCodePractice
 
 | NO.  | Title                                                        | Solution    | Difficulty | Tag                            |
 | ---- | ------------------------------------------------------------ | ----------- | ---------- | ------------------------------ |
@@ -18,12 +18,13 @@
 | 014  | [Longest Common Prefix](https://leetcode-cn.com/problems/longest-common-prefix/) | python      | Easy       | /                              |
 | 015  | [3Sum](https://leetcode-cn.com/problems/3sum/)               | python      | Medium     | Two pointers                   |
 | 016  | [3Sum Closest](https://leetcode-cn.com/problems/3sum-closest/) | python      | Medium     | Two pointers                   |
-| 017  |                                                              |             |            |                                |
-| 018  |                                                              |             |            |                                |
-| 019  |                                                              |             |            |                                |
+| 017  | [Letter Combinations of a Phone Number](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) | python      | Medium     | DFS/ BFS                       |
+| 018  | [4Sum](https://leetcode-cn.com/problems/4sum/)               | C++         | Medium     | Two pointers                   |
+| 019  | [Remove Nth Node From End of List](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | C++         | Medium     | Two pointers/ List             |
 | 020  | [Valid Parentheses](https://leetcode-cn.com/problems/valid-parentheses/) | C++         | Easy       | Stack                          |
-|      |                                                              |             |            |                                |
+| 021  | [Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | C++         | Easy       | List/ Recursion                |
 |      |                                                              |             |            |                                |
 |      |                                                              |             |            |                                |
 | 042  | [Trapping Rain Water](https://leetcode-cn.com/problems/trapping-rain-water/) | C++         | Hard       | Stack/ Two pointers(011)       |
+| 061  | [Rotate List](https://leetcode-cn.com/problems/rotate-list/) | C++         | Medium     | /                              |
 
