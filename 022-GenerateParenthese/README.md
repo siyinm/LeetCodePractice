@@ -2,6 +2,8 @@
 
 Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
 
+![image](http://github.com/siyinm/LeetCodePractice/raw/master/022-GenerateParenthese/mindmap022.png)
+
 ### Solution
 
 1. dfs
