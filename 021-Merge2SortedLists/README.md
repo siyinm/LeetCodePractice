@@ -24,3 +24,7 @@ Output: 1->1->2->3->4->4
    $\left\{\begin{array}{ll}{ \text { list }[0]+\text { merge (list1[ } 1:], \text { list2 })} & {\text { list1 }[0]<\text { list } 2[0]} \\ {\text { list2 }[0]+\text { merge(list1, list2[1: :)) }} & {\text { otherwise }}\end{array}\right.$
 
    记得在开始处理一方为空list的情况 此处也是一种停止条件
+
+3. 插入法
+
+   先判断头，再向一个list中插入另一list，比较复杂
