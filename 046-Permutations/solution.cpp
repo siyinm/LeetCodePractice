@@ -16,8 +16,7 @@ public:
     vector<vector<int>> permute(vector<int>& nums) {
         if (nums.size()==0) return ans;
         helper(nums ,0);
-        return ans;
-        
+        return ans;   
     }
     
 };

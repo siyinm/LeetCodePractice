@@ -29,11 +29,31 @@ LeetCodePractice
 | 025  | [Reverse Nodes in k-Group](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) |             |            |                                                        |
 | 026  | [Remove Duplicates from Sorted Array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | C++         | Easy       | List                                                   |
 | 027  | [Remove Element](https://leetcode-cn.com/problems/remove-element/) | C++         | Easy       | List                                                   |
-|      |                                                              |             |            |                                                        |
-|      |                                                              |             |            |                                                        |
-|      |                                                              |             |            |                                                        |
+| 028  | [28. Implement strStr()](https://leetcode-cn.com/problems/implement-strstr/) | python      | Easy       | KMP                                                    |
+| 029  | [29. Divide Two Integers](https://leetcode-cn.com/problems/divide-two-integers/) | C++         | Medium     | Math                                                   |
+| 030  |                                                              |             |            |                                                        |
+| 031  | [31. Next Permutation](https://leetcode-cn.com/problems/next-permutation/) | C++         | Medium     | /                                                      |
+| 032  | [32. Longest Valid Parentheses](https://leetcode-cn.com/problems/longest-valid-parentheses/) | python      | Hard       | stack/ dp                                              |
+| 033  | [33. Search in Rotated Sorted Array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | C++         | Medium     | dichotomy                                              |
+| 034  | [34. Find First and Last Position of Element in Sorted Array](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | python      | Medium     | dichotomy                                              |
+| 035  | [35. Search Insert Position](https://leetcode-cn.com/problems/search-insert-position/) | C++         | Easy       | dichotomy                                              |
+| 036  | [36. Valid Sudoku](https://leetcode-cn.com/problems/valid-sudoku/) | C++         | Medium     | Hash map                                               |
+| 037  | [37. Sudoku Solver](https://leetcode-cn.com/problems/sudoku-solver/) | C++         | Hard       | dfs (backtracking)                                     |
+| 038  | [38. Count and Say](https://leetcode-cn.com/problems/count-and-say/) | C++         | Easy       | /                                                      |
+| 039  | [39. Combination Sum](https://leetcode-cn.com/problems/combination-sum/) | C++         | Medium     | dfs (backtracking)                                     |
+| 040  | [40. Combination Sum II](https://leetcode-cn.com/problems/combination-sum-ii/) | C++         | Medium     | dfs (backtracking)                                     |
+| 041  | [41. First Missing Positive](https://leetcode-cn.com/problems/first-missing-positive/) | C++         | Hard       | Hash map                                               |
 | 042  | [Trapping Rain Water](https://leetcode-cn.com/problems/trapping-rain-water/) | C++         | Hard       | Stack/ Two pointers(011)                               |
+|      |                                                              |             |            |                                                        |
+|      |                                                              |             |            |                                                        |
+|      |                                                              |             |            |                                                        |
 | 046  | [Permutations](https://leetcode-cn.com/problems/permutations/) | C++         | Medium     | <span style="color:red;">DFS(Backtracking) /BFS</span> |
 | 047  | [Permutations II](https://leetcode-cn.com/problems/permutations-ii/) | C++         | Medium     | DFS(Backtracking) /BFS                                 |
+|      |                                                              |             |            |                                                        |
+|      |                                                              |             |            |                                                        |
+|      |                                                              |             |            |                                                        |
+|      |                                                              |             |            |                                                        |
+|      |                                                              |             |            |                                                        |
+|      |                                                              |             |            |                                                        |
 | 061  | [Rotate List](https://leetcode-cn.com/problems/rotate-list/) | C++         | Medium     | /                                                      |
 
