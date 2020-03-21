@@ -14,3 +14,4 @@ Output: 2
 ### Solution
 
 二分查找 
+
