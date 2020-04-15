@@ -23,28 +23,34 @@ class Solution:
                 if j + 1 < n:
                     dist[i][j] = min(dist[i][j], dist[i][j + 1] + 1)
         return dist
-
-作者：LeetCode-Solution
-链接：https://leetcode-cn.com/problems/01-matrix/solution/01ju-zhen-by-leetcode-solution/
-来源：力扣（LeetCode）
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。class Solution:
-    def trap(self, height: List[int]) -> int:
-        if len(height)<=2: return 0
-        m = max(height)
-        n = len(height)
-        s = sum(height)
-        mindex = height.index(m)
-        lmax = height[0]
-        rmax = height[n-1]
-        rain = 0
-        
-        for i in range(0, mindex):
-            lmax = max(lmax, height[i])
-            rain += lmax
-        
-        for j in range(n-1, mindex, -1):
-            rmax = max(rmax, height[j])
-            rain += rmax
-        
+class Solution:
+    def updateMatrix(self, matrix: List[List[int]]) -> List[List[int]]:
+        row = len(matrix)
+        col = len(matrix[0])
+        # visited = [[False]*col for _ in range(row)]
+        curr = 0
+        test =  []
+        for i in range(row):
+            for j in range(col):
+                if matrix[i][j] == 0:
+                    test.append([i, j])
+                    # visited[i][j] = True
+                else:
+                    matrix[i][j] = row+col
+        curr = 1
+        x = [1, 0, -1, 0]
+        y = [0, 1, 0, -1]
+        while test:
+            i ,j = test.pop(0)
+            for k in range(4):
+                nx = i + x[k]
+                ny = j + y[k]
+                if  nx<row and ny<col and nx>=0 and ny>=0 :
+                    if  matrix[nx][ny] > matrix[i][j] + 1:
+                        matrix[nx][ny] = matrix[i][j] + 1
+                        # visited[nx][ny] == True
+                        test.append([nx, ny])
+        return matrix
             
-        return rain-s+m
+
+
